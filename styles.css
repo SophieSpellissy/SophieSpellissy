@@ -9,8 +9,8 @@
 
 
 body {
-  background-color: #676064;
-color: #F0C8F4;
+  background-color: #FFFFFF;
+  color: #AA6373;
 }
 
 
@@ -19,17 +19,41 @@ h1 {
   font-family: BioRhyme Expanded;
   font-weight: bold;
   font-size: 40px;
+  color: #AA6373;
+}
+
+h2 {
+  color: #AA6373;
+}
+
+a {
+  text-decoration: none;
+  color: #AA6373;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .underline {
-  border-bottom: 3px solid #F0C8F4;
+  border-bottom: 3px solid #AA6373;
   margin-left: 40px;
   margin-right: 40px;
-
-
+  margin-bottom: 16px;
 }
 
-.intro {
+p {
   font-weight: lighter;
   font-size: 20px;
+  color: #1A1B25;
+}
+
+html {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+body {
+  width: 500px;
 }

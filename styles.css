@@ -57,3 +57,19 @@ html {
 body {
   width: 500px;
 }
+
+.images-row {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+img {
+  width: 130px;
+  height: 130px;
+  padding: 16px 0px;
+} 
+
